@@ -29,3 +29,11 @@ If you don't have `ffcast`, use this.
 ## Play the video
 
     mplayer tm.m4v
+
+## Access the music video files
+Neither video is synchronized properly, and
+the FMS symphony wasn't playing fast enough.
+The associated video files are here.
+
+* [FMS Symphony](fms-symphony.webm)
+* [Ridership Rachenitsa](transit.webm)
