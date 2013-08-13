@@ -15,6 +15,7 @@ Serve the slides
 
 Do the screencast
 
+    rm -f screencast.mkv
     ./screencast.sh
 
 This saves the screencast to `screencast.mkv`.
