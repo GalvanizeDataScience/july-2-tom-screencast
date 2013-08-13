@@ -20,7 +20,7 @@ Serve the slides on [localhost:8000](http://localhost:8000).
 ## Record the screencast.
 This saves the screencast to `screencast.mkv`.
 
-    ffcast ffmpeg -f alsa -i pulse -ab 192 -acodec pcm_s16le -f x11grab -s %wx%h -r 25 -i :%d+%x,%y -qscale 0 screencast.mkv
+    ffcast -s % ffmpeg -f alsa -i pulse -ab 192 -acodec pcm_s16le -f x11grab -s %wx%h -r 25 -i %d+%x,%y -qscale 0 screencast.mkv
 
 If you don't have `ffcast`, use this.
 
